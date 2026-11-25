@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cinema-theatre-review"
-version = "1.0.0"
-description = "Editorial OS and Data/Editorial Core v1.0 for Persian-language curated international cinema & theatre review."
+version = "1.0.1"
+description = "Editorial OS and Data/Editorial Core v1.0.1 for Persian-language curated international cinema & theatre review."
 authors = [{ name = "Cinema & Theatre Review Editorial Team" }]
 license = "MIT"
 license-files = ["LICENSE"]
