@@ -1,0 +1,272 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-09-17T19:00:00Z",
+  "rules": {
+    "festival_selection": {
+      "claim_type": "festival_selection",
+      "description": "Official selection of a film in a festival program or competition sidebar.",
+      "primary_authority_classes": ["festival_primary"],
+      "secondary_authority_classes": ["trade_publication", "critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["src_cannes_official", "cin_cannes", "cin_venice", "cin_berlinale", "cin_locarno"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "hold_on_unresolved"
+    },
+    "award_conferral": {
+      "claim_type": "award_conferral",
+      "description": "Official conferral of a major festival or institutional prize.",
+      "primary_authority_classes": ["festival_primary", "award_primary"],
+      "secondary_authority_classes": ["critical_journal", "trade_publication"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["src_cannes_official", "cin_cannes", "cin_venice", "cin_berlinale"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "theatre_premiere": {
+      "claim_type": "theatre_premiere",
+      "description": "Premiere or staging of a theatrical production by recognized company or venue.",
+      "primary_authority_classes": ["venue_primary", "national_theatre", "festival_primary", "database"],
+      "secondary_authority_classes": ["critical_journal", "trade_publication"],
+      "discovery_only_classes": [],
+      "preferred_source_ids": ["th_avignon", "th_theatertreffen", "th_wiener_festwochen", "th_edinburgh"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "hold_on_unresolved"
+    },
+    "book_publication_date": {
+      "claim_type": "book_publication_date",
+      "description": "Official release date and bibliographic record of a book or play text.",
+      "primary_authority_classes": ["publisher"],
+      "secondary_authority_classes": ["academic_journal", "database"],
+      "discovery_only_classes": ["critical_journal"],
+      "preferred_source_ids": ["pub_bloomsbury", "pub_faber", "pub_routledge", "pub_oup"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 1,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "archival_restoration": {
+      "claim_type": "archival_restoration",
+      "description": "Preservation, photochemical, or digital 4K restoration announcement and premiere.",
+      "primary_authority_classes": ["archive_primary", "cinematheque", "museum", "university"],
+      "secondary_authority_classes": ["critical_journal", "database"],
+      "discovery_only_classes": ["trade_publication"],
+      "preferred_source_ids": ["arc_cineteca_bologna", "arc_cinematheque_francaise", "arc_bfi_national_archive", "arc_eye"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "hold_on_unresolved"
+    },
+    "critical_assessment": {
+      "claim_type": "critical_assessment",
+      "description": "Critical analysis, evaluation, or theoretical discourse by recognized critical/academic writers.",
+      "primary_authority_classes": ["critical_journal", "academic_journal"],
+      "secondary_authority_classes": ["cinematheque", "cultural_institution"],
+      "discovery_only_classes": ["trade_publication"],
+      "preferred_source_ids": ["crit_cahiers", "crit_sight_sound", "crit_screen"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 1,
+        "require_independent_sources": false
+      },
+      "conflict_policy": "allow_qualified_discourse"
+    },
+    "distribution_deal": {
+      "claim_type": "distribution_deal",
+      "description": "Licensing or theatrical distribution agreement for art cinema.",
+      "primary_authority_classes": ["trade_publication"],
+      "secondary_authority_classes": ["critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": [],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "hold_on_unresolved"
+    },
+    "institutional_appointment": {
+      "claim_type": "institutional_appointment",
+      "description": "Appointment of artistic director or lead curator at major institution.",
+      "primary_authority_classes": ["cultural_institution", "national_theatre", "cinematheque", "festival_primary"],
+      "secondary_authority_classes": ["trade_publication", "critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": [],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "production_commencement": {
+      "claim_type": "production_commencement",
+      "description": "Commencement of principal photography or formal theatrical rehearsal.",
+      "primary_authority_classes": ["trade_publication", "venue_primary", "national_theatre"],
+      "secondary_authority_classes": ["critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": [],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "hold_on_unresolved"
+    },
+    "premiere_date": {
+      "claim_type": "premiere_date",
+      "description": "Official world, international, or festival premiere date of a film.",
+      "primary_authority_classes": ["festival_primary", "venue_primary"],
+      "secondary_authority_classes": ["trade_publication", "critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["cin_cannes", "cin_venice", "cin_berlinale", "cin_locarno"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "documentary_selection": {
+      "claim_type": "documentary_selection",
+      "description": "Official selection of a documentary film in a specialized festival competition.",
+      "primary_authority_classes": ["festival_primary"],
+      "secondary_authority_classes": ["trade_publication", "critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["cin_idfa", "cin_visions"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "hold_on_unresolved"
+    },
+    "festival_programme": {
+      "claim_type": "festival_programme",
+      "description": "Official scheduled festival programme announcement for performing arts.",
+      "primary_authority_classes": ["festival_primary", "venue_primary", "national_theatre"],
+      "secondary_authority_classes": ["critical_journal", "trade_publication"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["th_avignon", "th_theatertreffen", "th_wiener_festwochen", "th_edinburgh"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "performance_dates": {
+      "claim_type": "performance_dates",
+      "description": "Confirmed venue performance run and staging dates for theatre.",
+      "primary_authority_classes": ["venue_primary", "national_theatre", "festival_primary"],
+      "secondary_authority_classes": ["trade_publication", "critical_journal"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["th_avignon", "th_theatertreffen"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "jury_selection": {
+      "claim_type": "jury_selection",
+      "description": "Curated jury selection of remarkable stage productions.",
+      "primary_authority_classes": ["festival_primary", "cultural_institution"],
+      "secondary_authority_classes": ["critical_journal", "trade_publication"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["th_theatertreffen"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "play_publication": {
+      "claim_type": "play_publication",
+      "description": "First edition or definitive publication of a dramatic play text.",
+      "primary_authority_classes": ["publisher"],
+      "secondary_authority_classes": ["academic_journal", "database"],
+      "discovery_only_classes": ["critical_journal"],
+      "preferred_source_ids": ["pub_faber", "pub_bloomsbury", "pub_nick_hern", "pub_tcg"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 1,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "bibliographic_record": {
+      "claim_type": "bibliographic_record",
+      "description": "Bibliographic metadata, DOI, ISBN, and library holdings control.",
+      "primary_authority_classes": ["publisher", "database", "academic_journal"],
+      "secondary_authority_classes": ["critical_journal", "research_network"],
+      "discovery_only_classes": ["trade_publication"],
+      "preferred_source_ids": ["db_worldcat", "db_crossref", "db_openalex", "db_viaf"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 1,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    },
+    "scholarly_analysis": {
+      "claim_type": "scholarly_analysis",
+      "description": "Peer-reviewed scholarly study, dramaturgy analysis, or theoretical treatise.",
+      "primary_authority_classes": ["academic_journal"],
+      "secondary_authority_classes": ["critical_journal", "university"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["crit_screen", "crit_film_quarterly", "th_theatre_journal", "th_tdr"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 1,
+        "require_independent_sources": false
+      },
+      "conflict_policy": "allow_qualified_discourse"
+    },
+    "theatre_criticism": {
+      "claim_type": "theatre_criticism",
+      "description": "Professional stage review and critical reception of a theatrical production.",
+      "primary_authority_classes": ["critical_journal", "trade_publication", "academic_journal"],
+      "secondary_authority_classes": ["cultural_institution"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["th_stage", "th_american_theatre", "th_critical_stages"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 1,
+        "require_independent_sources": false
+      },
+      "conflict_policy": "allow_qualified_discourse"
+    },
+    "official_festival_report": {
+      "claim_type": "official_festival_report",
+      "description": "Official post-festival debrief, statistics, or executive report released or authorized by a film festival or its leadership.",
+      "primary_authority_classes": ["festival_primary"],
+      "secondary_authority_classes": ["trade_publication"],
+      "discovery_only_classes": ["database"],
+      "preferred_source_ids": ["src_cannes_official", "cin_cannes"],
+      "minimum_confirmation": {
+        "primary_count": 1,
+        "secondary_count": 2,
+        "require_independent_sources": true
+      },
+      "conflict_policy": "prefer_primary"
+    }
+  }
+}

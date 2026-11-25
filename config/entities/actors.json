@@ -1,0 +1,29 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "person_leila_hatami",
+      "name": "Leila Hatami",
+      "name_persian": "لیلا حاتمی",
+      "aliases": ["Leila Hatami"],
+      "aliases_persian": ["لیلا حاتمی"],
+      "entity_type": "actor",
+      "status": "recognized",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q258384",
+        "imdb": "nm0368689"
+      },
+      "provenance": [
+        {
+          "source_id": "src_berlinale_official",
+          "reason_code": "major_award",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Silver Bear for Best Actress at Berlin International Film Festival (2011)"
+        }
+      ],
+      "biography_summary": "Prominent Iranian and international stage and screen actor.",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "person_samuel_beckett",
+      "name": "Samuel Beckett",
+      "name_persian": "ساموئل بکت",
+      "aliases": ["Samuel Barclay Beckett"],
+      "aliases_persian": ["بکت"],
+      "entity_type": "playwright",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q37327",
+        "viaf": "27060791"
+      },
+      "provenance": [
+        {
+          "source_id": "src_bloomsbury_methuen",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Nobel laureate in Literature and canonical dramatist of the Theatre of the Absurd"
+        }
+      ],
+      "biography_summary": "Irish novelist, playwright, short story writer, theatre director, and poet.",
+      "active": true
+    },
+    {
+      "entity_id": "person_harold_pinter",
+      "name": "Harold Pinter",
+      "name_persian": "هارولد پینتر",
+      "aliases": ["David Baron"],
+      "aliases_persian": ["پینتر"],
+      "entity_type": "playwright",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q41042",
+        "viaf": "83076151"
+      },
+      "provenance": [
+        {
+          "source_id": "src_faber_drama",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Nobel Prize in Literature recipient and influential modern British dramatist"
+        }
+      ],
+      "biography_summary": "British playwright, screenwriter, director and actor.",
+      "active": true
+    }
+  ]
+}

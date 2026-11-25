@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "award_palme_dor",
+      "name": "Palme d'Or",
+      "name_persian": "نخل طلا",
+      "aliases": ["Golden Palm", "Palme d'or"],
+      "aliases_persian": ["نخل طلای کن"],
+      "entity_type": "award",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q179808"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Highest prize awarded at the Cannes Film Festival"
+        }
+      ],
+      "biography_summary": "The highest prize awarded at the Cannes Film Festival.",
+      "active": true
+    },
+    {
+      "entity_id": "award_golden_bear",
+      "name": "Golden Bear",
+      "name_persian": "خرس طلا",
+      "aliases": ["Goldener Bär"],
+      "aliases_persian": ["خرس طلایی برلین"],
+      "entity_type": "award",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q154590"
+      },
+      "provenance": [
+        {
+          "source_id": "src_berlinale_official",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Highest prize awarded for the best film at the Berlin International Film Festival"
+        }
+      ],
+      "biography_summary": "Highest prize awarded at the Berlin International Film Festival.",
+      "active": true
+    }
+  ]
+}

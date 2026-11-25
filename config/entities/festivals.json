@@ -1,0 +1,74 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "event_cannes_film_festival",
+      "name": "Cannes Film Festival",
+      "name_persian": "جشنواره فیلم کن",
+      "aliases": ["Festival de Cannes", "Le Festival International du Film de Cannes"],
+      "aliases_persian": ["کن", "فستیوال کن"],
+      "entity_type": "festival",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q2897"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Premier competitive international film festival established in 1946"
+        }
+      ],
+      "biography_summary": "Annual film festival held in Cannes, France, previewing new films across genres.",
+      "active": true
+    },
+    {
+      "entity_id": "event_venice_film_festival",
+      "name": "Venice International Film Festival",
+      "name_persian": "جشنواره بین‌المللی فیلم ونیز",
+      "aliases": ["Mostra Internazionale d'Arte Cinematografica della Biennale di Venezia"],
+      "aliases_persian": ["ونیز", "فستیوال ونیز"],
+      "entity_type": "festival",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q49024"
+      },
+      "provenance": [
+        {
+          "source_id": "src_venice_biennale",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "World's oldest film festival, founded in 1932 as part of the Venice Biennale"
+        }
+      ],
+      "biography_summary": "Oldest film festival in the world and one of the 'Big Three'.",
+      "active": true
+    },
+    {
+      "entity_id": "event_festival_avignon",
+      "name": "Festival d'Avignon",
+      "name_persian": "جشنواره تئاتر آوینیون",
+      "aliases": ["Avignon Festival"],
+      "aliases_persian": ["فستیوال آوینیون", "آوینیون"],
+      "entity_type": "festival",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q1255018"
+      },
+      "provenance": [
+        {
+          "source_id": "src_festival_avignon",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Founded by Jean Vilar in 1947, premier international theatre festival"
+        }
+      ],
+      "biography_summary": "Annual arts festival held in the French city of Avignon.",
+      "active": true
+    }
+  ]
+}

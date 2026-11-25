@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "org_cinematheque_francaise",
+      "name": "La Cinémathèque française",
+      "name_persian": "سینماتک فرانسه",
+      "aliases": ["Cinematheque Francaise"],
+      "aliases_persian": ["سینماتک فرانسه"],
+      "entity_type": "archive",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q175106"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cinematheque_francaise",
+          "reason_code": "archive_recognition",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Co-founded by Henri Langlois in 1936, world's largest film archive"
+        }
+      ],
+      "biography_summary": "French film organisation that holds one of the largest archives of film documents in the world.",
+      "active": true
+    },
+    {
+      "entity_id": "org_cineteca_di_bologna",
+      "name": "Fondazione Cineteca di Bologna",
+      "name_persian": "سینتکا دی بولونیا",
+      "aliases": ["Cineteca di Bologna"],
+      "aliases_persian": ["سینتکا بولونیا"],
+      "entity_type": "archive",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q3677271"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cineteca_bologna",
+          "reason_code": "archive_recognition",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Renowned for L'Immagine Ritrovata laboratory and archival film preservation"
+        }
+      ],
+      "biography_summary": "Film archive in Bologna, Italy, recognized internationally for film restoration.",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "person_abbas_kiarostami",
+      "name": "Abbas Kiarostami",
+      "name_persian": "عباس کیارستمی",
+      "aliases": ["Abbas Kia Rostami"],
+      "aliases_persian": ["کیارستمی"],
+      "entity_type": "filmmaker",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q326080",
+        "imdb": "nm0452102",
+        "viaf": "114753296"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "major_award",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Palme d'Or winner at 1997 Cannes Film Festival for Taste of Cherry"
+        },
+        {
+          "source_id": "src_cahiers_du_cinema",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Extensive critical monograph and top film canon inclusion"
+        }
+      ],
+      "biography_summary": "Iranian film director, screenwriter, photographer and film producer of international modernist cinema.",
+      "active": true
+    },
+    {
+      "entity_id": "person_asghar_farhadi",
+      "name": "Asghar Farhadi",
+      "name_persian": "اصغر فرهادی",
+      "aliases": ["Asghar Farhadi"],
+      "aliases_persian": ["فرهادی"],
+      "entity_type": "filmmaker",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q334279",
+        "imdb": "nm1322040"
+      },
+      "provenance": [
+        {
+          "source_id": "src_berlinale_official",
+          "reason_code": "major_award",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Golden Bear recipient for A Separation (2011)"
+        },
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "major_award",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Best Screenplay and Grand Prix recipient at Cannes"
+        }
+      ],
+      "biography_summary": "Two-time Academy Award winning international filmmaker and dramatist.",
+      "active": true
+    },
+    {
+      "entity_id": "person_jean_luc_godard",
+      "name": "Jean-Luc Godard",
+      "name_persian": "ژان-لوک گدار",
+      "aliases": ["JLG", "Jean Luc Godard"],
+      "aliases_persian": ["ژان لوک گدار"],
+      "entity_type": "filmmaker",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q5479",
+        "imdb": "nm0000419"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Special Palme d'Or and historical founder of the French New Wave"
+        }
+      ],
+      "biography_summary": "Pivotal French-Swiss filmmaker and film theorist of the French New Wave.",
+      "active": true
+    },
+    {
+      "entity_id": "person_thierry_fremaux",
+      "name": "Thierry Frémaux",
+      "name_persian": "تیری فرمو",
+      "aliases": ["Thierry Fremaux", "Thierry Frémaux"],
+      "aliases_persian": ["تیری فرمو"],
+      "entity_type": "filmmaker",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q2382498",
+        "imdb": "nm1047648"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "General Delegate of the Cannes Film Festival and Director of the Institut Lumière"
+        }
+      ],
+      "biography_summary": "French film director, curator, General Delegate of the Cannes Film Festival, and Director of the Institut Lumière.",
+      "active": true
+    },
+    {
+      "entity_id": "local_filmmaker_001",
+      "name": "Provisional Emerging Director 001",
+      "name_persian": "فیلم‌ساز محلی و نوظهور آزمایشی",
+      "aliases": [],
+      "aliases_persian": [],
+      "entity_type": "filmmaker",
+      "status": "local",
+      "identity_status": "provisional",
+      "external_ids": {},
+      "provenance": [],
+      "biography_summary": "Local entity entry illustrating provisional non-canonical tracking.",
+      "active": true
+    }
+  ]
+}

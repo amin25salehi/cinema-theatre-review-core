@@ -1,0 +1,134 @@
+{
+  "version": "1.0.0",
+  "name": "cinema_and_theatre_review_taxonomy",
+  "description": "Taxonomy of editorial domains, topics, and claim types for Cinema & Theatre Review.",
+  "domains": [
+    {
+      "id": "cinema",
+      "name_persian": "سینمای بین‌الملل",
+      "description": "International auteur cinema, film festivals, film history, and criticism"
+    },
+    {
+      "id": "theatre",
+      "name_persian": "تئاتر بین‌الملل",
+      "description": "Contemporary international stage productions, playwrights, and dramaturgy"
+    },
+    {
+      "id": "archives_restorations",
+      "name_persian": "آرشیوها و مرمت‌ها",
+      "description": "Film preservation, 4K/photochemical restorations, cinematheques, and library archives"
+    },
+    {
+      "id": "publications",
+      "name_persian": "کتاب‌ها و نشریات",
+      "description": "Critical monographs, dramatic texts, academic journals, and anthologies"
+    },
+    {
+      "id": "discourse_criticism",
+      "name_persian": "گفتمان و نقد",
+      "description": "Theoretical essays, roundtables, and in-depth critical assessments"
+    }
+  ],
+  "claim_types": [
+    {
+      "code": "festival_selection",
+      "domain": "cinema",
+      "description": "Inclusion of a film in a festival program or official competition"
+    },
+    {
+      "code": "award_conferral",
+      "domain": "cinema",
+      "description": "Official conferral of a festival or institutional award"
+    },
+    {
+      "code": "theatre_premiere",
+      "domain": "theatre",
+      "description": "Official opening or staging of a theatrical production"
+    },
+    {
+      "code": "book_publication_date",
+      "domain": "publications",
+      "description": "Official publication release of a monograph or dramatic text"
+    },
+    {
+      "code": "archival_restoration",
+      "domain": "archives_restorations",
+      "description": "Completion and premiere of an archival restoration or scan"
+    },
+    {
+      "code": "critical_assessment",
+      "domain": "discourse_criticism",
+      "description": "Formal critical review or essay evaluation by recognized journal"
+    },
+    {
+      "code": "distribution_deal",
+      "domain": "cinema",
+      "description": "Acquisition or theatrical distribution licensing agreement"
+    },
+    {
+      "code": "institutional_appointment",
+      "domain": "cinema",
+      "description": "Appointment of artistic director or curator at major institution"
+    },
+    {
+      "code": "production_commencement",
+      "domain": "cinema",
+      "description": "Commencement of principal photography or formal rehearsal"
+    },
+    {
+      "code": "premiere_date",
+      "domain": "cinema",
+      "description": "Official world, international, or festival premiere date of a film"
+    },
+    {
+      "code": "documentary_selection",
+      "domain": "cinema",
+      "description": "Official selection of a documentary film in a specialized festival competition"
+    },
+    {
+      "code": "festival_programme",
+      "domain": "theatre",
+      "description": "Official scheduled festival programme announcement for performing arts"
+    },
+    {
+      "code": "performance_dates",
+      "domain": "theatre",
+      "description": "Confirmed venue performance run and staging dates for theatre"
+    },
+    {
+      "code": "jury_selection",
+      "domain": "theatre",
+      "description": "Curated jury selection of remarkable stage productions"
+    },
+    {
+      "code": "play_publication",
+      "domain": "publications",
+      "description": "First edition or definitive publication of a dramatic play text"
+    },
+    {
+      "code": "bibliographic_record",
+      "domain": "publications",
+      "description": "Bibliographic metadata, DOI, ISBN, and library holdings control"
+    },
+    {
+      "code": "scholarly_analysis",
+      "domain": "discourse_criticism",
+      "description": "Peer-reviewed scholarly study, dramaturgy analysis, or theoretical treatise"
+    },
+    {
+      "code": "theatre_criticism",
+      "domain": "discourse_criticism",
+      "description": "Professional stage review and critical reception of a theatrical production"
+    },
+    {
+      "code": "official_festival_report",
+      "domain": "cinema",
+      "description": "Official festival report, debrief, or institutional announcement"
+    },
+    {
+      "code": "historical_context",
+      "domain": "archives_restorations",
+      "description": "Historical cinema and theatre restoration context, retrospective background, and archival heritage"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "source_id": "cin_berlinale",
+  "collector_family": "web_index",
+  "observed_behavior": "Festival competition index with relative URLs, nested HTML in title anchors, and multilingual path segments",
+  "normalization_concerns": [
+    "Relative URL resolution against base URL",
+    "Stripping nested span tags from anchor titles",
+    "Handling naive and ISO publication dates"
+  ],
+  "raw_item": {
+    "raw_item_id": "raw_cin_berlinale_test1",
+    "run_id": "pilot_run_test",
+    "source_id": "cin_berlinale",
+    "native_id": "/en/film-entry/submission/rules-2026.html",
+    "source_url": "https://www.berlinale.de/en/film-entry/submission/rules-2026.html",
+    "raw_html": "<article><h1 class=\"headline\"><span>Official Competition</span>: <i>Rules &amp; Regulations</i></h1><p>Regulations for the 76th Berlin International Film Festival.</p></article>",
+    "published_str": "2026-09-19T10:00:00Z"
+  },
+  "expected": {
+    "canonical_url": "https://www.berlinale.de/en/film-entry/submission/rules-2026.html",
+    "title": "Official Competition: Rules & Regulations",
+    "content_text": "Official Competition: Rules & Regulations\nRegulations for the 76th Berlin International Film Festival."
+  }
+}

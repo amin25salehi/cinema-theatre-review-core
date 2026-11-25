@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "person_peter_brook",
+      "name": "Peter Brook",
+      "name_persian": "پیتر بروک",
+      "aliases": ["Peter Stephen Paul Brook"],
+      "aliases_persian": ["پیتر بروک"],
+      "entity_type": "theatre_director",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q49760",
+        "viaf": "54145094"
+      },
+      "provenance": [
+        {
+          "source_id": "src_theatre_bouffes_du_nord",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Artistic pioneer at the International Centre for Theatre Research and Bouffes du Nord"
+        }
+      ],
+      "biography_summary": "English theatre and film director, author of The Empty Space.",
+      "active": true
+    },
+    {
+      "entity_id": "person_thomas_ostermeier",
+      "name": "Thomas Ostermeier",
+      "name_persian": "توماس اوسترمایر",
+      "aliases": ["Thomas Ostermeier"],
+      "aliases_persian": ["اوسترمایر"],
+      "entity_type": "theatre_director",
+      "status": "recognized",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q65115"
+      },
+      "provenance": [
+        {
+          "source_id": "src_schaubuehne_berlin",
+          "reason_code": "major_production",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Artistic Director of Schaubühne Berlin and prominent international director"
+        },
+        {
+          "source_id": "src_festival_avignon",
+          "reason_code": "major_festival_selection",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Associate artist and headline productions at Festival d'Avignon"
+        }
+      ],
+      "biography_summary": "German theatre director and artistic director of the Schaubühne in Berlin.",
+      "active": true
+    }
+  ]
+}

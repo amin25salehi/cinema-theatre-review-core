@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "policy_name": "iran_cinema_editorial_exceptions",
+  "description": "Exhaustive list of allowed international editorial exceptions for Iranian cinema. Daily domestic news is strictly rejected.",
+  "default_action": "reject",
+  "allowed_exception_categories": [
+    {
+      "code": "major_international_award",
+      "name": "Major International Awards",
+      "description": "Conferral of major competitive awards to Iranian filmmakers/works at premier international venues (e.g. Academy Awards, Cannes Palme d'Or / Grand Prix / Jury Prize, Venice Golden / Silver Lion, Berlinale Golden / Silver Bear, Locarno Golden Leopard).",
+      "required_minimum_tier": 1
+    },
+    {
+      "code": "major_festival_selection",
+      "name": "Major International Festival Official Selection",
+      "description": "Inclusion of an Iranian work or filmmaker in Official Competition or major curated sidebar (e.g. Un Certain Regard, Directors' Fortnight) at premier A-list festivals.",
+      "required_minimum_tier": 1
+    },
+    {
+      "code": "historical_international_event",
+      "name": "Historically Significant International Event",
+      "description": "Major international retrospectives at premier cinematheques/museums, major institutional restorations, or international academic symposiums.",
+      "required_minimum_tier": 1
+    },
+    {
+      "code": "international_cultural_significance",
+      "name": "Genuine International Cultural Significance",
+      "description": "Events involving major international cultural institutions, prominent international co-productions, or major international critical retrospectives.",
+      "required_minimum_tier": 2
+    }
+  ],
+  "disallowed_categories": [
+    "domestic_box_office",
+    "celebrity_personal_life",
+    "domestic_television_broadcast",
+    "local_guild_disputes",
+    "commercial_distribution_rumors",
+    "unverified_social_media_statements"
+  ]
+}

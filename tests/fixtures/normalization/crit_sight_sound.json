@@ -1,0 +1,23 @@
+{
+  "source_id": "crit_sight_sound",
+  "collector_family": "web_index",
+  "observed_behavior": "Film criticism journal index with tracking parameters, HTML entities in title, and trailing slash paths",
+  "normalization_concerns": [
+    "Stripping utm_* tracking parameters while keeping query parameters",
+    "Decoding HTML entities in title and content",
+    "Normalizing trailing slashes on multi-segment URLs"
+  ],
+  "raw_item": {
+    "raw_item_id": "raw_crit_ss_test1",
+    "run_id": "pilot_run_test",
+    "source_id": "crit_sight_sound",
+    "native_id": "https://www.bfi.org.uk/sight-and-sound/reviews/hamlet-2026?utm_source=twitter&utm_medium=social&utm_campaign=editorial&edition=print",
+    "source_url": "https://www.bfi.org.uk/sight-and-sound/reviews/hamlet-2026/?utm_source=twitter&utm_medium=social&utm_campaign=editorial&edition=print#reviews",
+    "raw_html": "<div class=\"review-card\"><h2>Hamlet &amp; the Ghosts of Cinema</h2><p>An incisive exploration of Shakespearean adaptation in 2026.</p></div>"
+  },
+  "expected": {
+    "canonical_url": "https://www.bfi.org.uk/sight-and-sound/reviews/hamlet-2026?edition=print",
+    "title": "Hamlet & the Ghosts of Cinema",
+    "content_text": "Hamlet & the Ghosts of Cinema\nAn incisive exploration of Shakespearean adaptation in 2026."
+  }
+}

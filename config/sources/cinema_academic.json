@@ -1,0 +1,56 @@
+{
+  "version": "1.0.0",
+  "sources": [
+    {
+      "source_id": "crit_screen",
+      "name": "Screen (Oxford University Press)",
+      "domain": "academic.oup.com",
+      "source_class": "academic_journal",
+      "tier": 1,
+      "region": "europe",
+      "language": "en",
+      "roles": ["authority", "research", "criticism", "history"],
+      "authoritative_claims": ["critical_assessment", "scholarly_analysis"],
+      "not_authoritative_for": ["breaking_news", "box_office"],
+      "acquisition_method": ["website"],
+      "canonical_url": "https://academic.oup.com/screen",
+      "active": true,
+      "aliases": ["src_screen_oxford"],
+      "notes": "Leading international journal of academic film and television studies published by Oxford University Press."
+    },
+    {
+      "source_id": "crit_film_quarterly",
+      "name": "Film Quarterly",
+      "domain": "online.ucpress.edu",
+      "source_class": "academic_journal",
+      "tier": 1,
+      "region": "north_america",
+      "language": "en",
+      "roles": ["authority", "criticism", "research", "history"],
+      "authoritative_claims": ["critical_assessment", "scholarly_analysis"],
+      "not_authoritative_for": ["breaking_news", "box_office"],
+      "acquisition_method": ["website"],
+      "canonical_url": "https://online.ucpress.edu/fq",
+      "active": true,
+      "aliases": [],
+      "notes": "Long-running scholarly journal published by University of California Press."
+    },
+    {
+      "source_id": "src_jcms_journal",
+      "name": "Journal of Cinema and Media Studies (JCMS)",
+      "domain": "quod.lib.umich.edu",
+      "source_class": "academic_journal",
+      "tier": 1,
+      "region": "north_america",
+      "language": "en",
+      "roles": ["authority", "research", "criticism", "history"],
+      "authoritative_claims": ["critical_assessment", "scholarly_analysis"],
+      "not_authoritative_for": ["breaking_news", "box_office"],
+      "acquisition_method": ["website"],
+      "canonical_url": "https://quod.lib.umich.edu/j/jcms",
+      "active": true,
+      "aliases": [],
+      "notes": "Official peer-reviewed journal of the Society for Cinema and Media Studies (SCMS)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "film_taste_of_cherry",
+      "name": "Taste of Cherry",
+      "name_persian": "طعم گیلاس",
+      "aliases": ["Ta'm-e gilas", "Le goût de la cerise"],
+      "aliases_persian": ["طعم گیلاس"],
+      "entity_type": "film",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q79960",
+        "imdb": "nm0120265"
+      },
+      "provenance": [
+        {
+          "source_id": "src_cannes_official",
+          "reason_code": "major_award",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Palme d'Or recipient at the 1997 Cannes Film Festival"
+        }
+      ],
+      "biography_summary": "1997 minimalist drama film written and directed by Abbas Kiarostami.",
+      "active": true
+    },
+    {
+      "entity_id": "film_a_separation",
+      "name": "A Separation",
+      "name_persian": "جدایی نادر از سیمین",
+      "aliases": ["Jodaeiye Nader az Simin", "Une séparation"],
+      "aliases_persian": ["جدایی"],
+      "entity_type": "film",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q640561",
+        "imdb": "nm1832382"
+      },
+      "provenance": [
+        {
+          "source_id": "src_berlinale_official",
+          "reason_code": "major_award",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Golden Bear winner at 61st Berlin International Film Festival"
+        }
+      ],
+      "biography_summary": "2011 Iranian drama film written and directed by Asghar Farhadi.",
+      "active": true
+    }
+  ]
+}

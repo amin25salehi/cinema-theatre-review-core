@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "org_bloomsbury_publishing",
+      "name": "Bloomsbury Publishing (Methuen Drama)",
+      "name_persian": "انتشارات بلومزبری / متوئن دراما",
+      "aliases": ["Bloomsbury Methuen Drama", "Methuen Drama"],
+      "aliases_persian": ["بلومزبری"],
+      "entity_type": "publisher",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q568642"
+      },
+      "provenance": [
+        {
+          "source_id": "src_bloomsbury_methuen",
+          "reason_code": "major_publication",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Publisher of major international theatre anthologies and modern play scripts"
+        }
+      ],
+      "biography_summary": "British publishing house and home to Methuen Drama imprint.",
+      "active": true
+    },
+    {
+      "entity_id": "org_faber_and_faber",
+      "name": "Faber & Faber",
+      "name_persian": "فیبر اند فیبر",
+      "aliases": ["Faber and Faber"],
+      "aliases_persian": ["فیبر"],
+      "entity_type": "publisher",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q1390207"
+      },
+      "provenance": [
+        {
+          "source_id": "src_faber_drama",
+          "reason_code": "major_publication",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Publisher of major international dramatists including Pinter, Stoppard, and Beckett"
+        }
+      ],
+      "biography_summary": "Independent publishing house in London with prestigious drama and cinema list.",
+      "active": true
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "org_theatre_des_bouffes_du_nord",
+      "name": "Théâtre des Bouffes du Nord",
+      "name_persian": "تئاتر بوف دو نور",
+      "aliases": ["Bouffes du Nord"],
+      "aliases_persian": ["بوف دو نور"],
+      "entity_type": "theatre",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q3527663"
+      },
+      "provenance": [
+        {
+          "source_id": "src_theatre_bouffes_du_nord",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Historic theatre in Paris revitalized by Peter Brook and Micheline Rozan"
+        }
+      ],
+      "biography_summary": "Parisian theatre renowned for international theatrical research.",
+      "active": true
+    },
+    {
+      "entity_id": "org_schaubuehne_am_lehniner_platz",
+      "name": "Schaubühne am Lehniner Platz",
+      "name_persian": "تئاتر شاوبونه برلین",
+      "aliases": ["Schaubühne Berlin"],
+      "aliases_persian": ["شاوبونه"],
+      "entity_type": "theatre",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q568112"
+      },
+      "provenance": [
+        {
+          "source_id": "src_schaubuehne_berlin",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Leading theatre company in Berlin founded in 1962"
+        }
+      ],
+      "biography_summary": "Renowned theatre company in Berlin known for pioneering contemporary stagings.",
+      "active": true
+    }
+  ]
+}

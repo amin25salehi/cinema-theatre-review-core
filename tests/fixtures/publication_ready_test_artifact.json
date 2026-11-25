@@ -1,0 +1,40 @@
+{
+  "artifact_id": "pub_art_dc_palme_test_drf_dc_palme_test_rev1",
+  "readiness_id": "prr_dc_palme_test_drf_dc_palme_test_rev1",
+  "decision_id": "dc_palme_test",
+  "draft_id": "drf_dc_palme_test_rev1",
+  "story_id": "story_cannes_palme",
+  "candidate_id": "cand_dc_palme_test",
+  "publication_action": "new_post",
+  "story_action": "new_post",
+  "change_type": "INITIAL",
+  "format": "news_brief",
+  "title": "گزارش فرهنگی: Taste of Cherry",
+  "body": "بر اساس اسناد رسمی و منابع معتبر، Taste of Cherry won the Palme d'Or at the 1997 Cannes Film Festival. این رویداد به عنوان یکی از تحولات مورد توجه در حوزه سینما و تئاتر ثبت شده است.",
+  "character_count": 211,
+  "claim_traces": [
+    {
+      "draft_claim_id": "trc_1",
+      "claim_refs": [
+        "clm_palme_01"
+      ],
+      "evidence_refs": [
+        "ev_cannes_official_01"
+      ],
+      "assertion_text": "Taste of Cherry won the Palme d'Or at the 1997 Cannes Film F"
+    }
+  ],
+  "source_refs": [
+    "src_cannes_official"
+  ],
+  "entity_refs": [
+    "film_taste_of_cherry"
+  ],
+  "media_assets": [],
+  "decision_hash": "0f484ebd800a48912ee34a01799ab53c1391245eef1325640a4262895f08b7f2",
+  "draft_hash": "f0b36548bd658b3e1548bc6c69893aca144617192b81d48264a0bde8f1bc7e0c",
+  "readiness_hash": "93be734ea91bd504cb3d7efd50d22d0c04149196084913e07fa385376de1c649",
+  "publication_identity": "800da537f0f1572a693efbce7db53ba2dddbb5c65abcfd8206acba0968d39185",
+  "artifact_hash": "3e398c98b8d3820dd69a123e8cdf92b6bcf233a784adebde769013d43e1d1abd",
+  "created_at": "2026-09-21T21:36:06.738627+00:00"
+}

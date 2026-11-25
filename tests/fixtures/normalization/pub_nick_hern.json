@@ -1,0 +1,23 @@
+{
+  "source_id": "pub_nick_hern",
+  "collector_family": "web_index",
+  "observed_behavior": "Theatre playtext publisher catalog with non-breaking spaces, HTML entities, and edition metadata",
+  "normalization_concerns": [
+    "Normalizing non-breaking spaces (&nbsp; / \\xa0) into standard whitespace",
+    "Preserving theatrical subtitles and punctuation in titles without editorial deletion",
+    "Deterministic content fingerprints invariant across whitespace variations"
+  ],
+  "raw_item": {
+    "raw_item_id": "raw_pub_nh_test1",
+    "run_id": "pilot_run_test",
+    "source_id": "pub_nick_hern",
+    "native_id": "isbn_9781848429999",
+    "source_url": "https://www.nickhernbooks.co.uk/plays/modern-drama?isbn=9781848429999&ref=cat_sidebar",
+    "raw_html": "<div class=\"book-detail\"><h1>Top&nbsp;Girls&nbsp;&mdash;&nbsp;Caryl&nbsp;Churchill</h1><p class=\"desc\">A&nbsp;modern classic&nbsp;of contemporary British theatre.</p></div>"
+  },
+  "expected": {
+    "canonical_url": "https://www.nickhernbooks.co.uk/plays/modern-drama?isbn=9781848429999",
+    "title": "Top Girls — Caryl Churchill",
+    "content_text": "Top Girls — Caryl Churchill\nA modern classic of contemporary British theatre."
+  }
+}

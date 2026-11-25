@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "play_waiting_for_godot",
+      "name": "Waiting for Godot",
+      "name_persian": "در انتظار گودو",
+      "aliases": ["En attendant Godot"],
+      "aliases_persian": ["گودو"],
+      "entity_type": "play",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q19871"
+      },
+      "provenance": [
+        {
+          "source_id": "src_bloomsbury_methuen",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Landmark play of twentieth-century modernist and absurdist theatre"
+        }
+      ],
+      "biography_summary": "Play by Samuel Beckett in which two characters wait for the arrival of Godot.",
+      "active": true
+    },
+    {
+      "entity_id": "play_the_birthday_party",
+      "name": "The Birthday Party",
+      "name_persian": "جشن تولد",
+      "aliases": ["The Birthday Party"],
+      "aliases_persian": ["جشن تولد پینتر"],
+      "entity_type": "play",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q1212879"
+      },
+      "provenance": [
+        {
+          "source_id": "src_faber_drama",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "First full-length play by Harold Pinter, masterwork of comedy of menace"
+        }
+      ],
+      "biography_summary": "Play by Harold Pinter first produced in 1958.",
+      "active": true
+    }
+  ]
+}

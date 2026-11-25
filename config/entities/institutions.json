@@ -1,0 +1,51 @@
+{
+  "version": "1.0.0",
+  "entities": [
+    {
+      "entity_id": "org_bfi_institution",
+      "name": "British Film Institute (BFI)",
+      "name_persian": "مؤسسه فیلم بریتانیا",
+      "aliases": ["BFI"],
+      "aliases_persian": ["بی‌اف‌آی"],
+      "entity_type": "institution",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q260528"
+      },
+      "provenance": [
+        {
+          "source_id": "src_sight_and_sound",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Royal Charter cultural charity for film and moving image heritage"
+        }
+      ],
+      "biography_summary": "Film and television charitable organisation which promotes and preserves filmmaking in the UK.",
+      "active": true
+    },
+    {
+      "entity_id": "org_royal_national_theatre",
+      "name": "Royal National Theatre of Great Britain",
+      "name_persian": "تئاتر ملی سلطنتی بریتانیا",
+      "aliases": ["National Theatre UK"],
+      "aliases_persian": ["تئاتر ملی لندن"],
+      "entity_type": "institution",
+      "status": "reference",
+      "identity_status": "confirmed",
+      "external_ids": {
+        "wikidata": "Q511149"
+      },
+      "provenance": [
+        {
+          "source_id": "src_national_theatre_uk",
+          "reason_code": "historical_canon",
+          "added_at": "2026-09-17T19:00:00Z",
+          "notes": "Premier UK publicly funded performing arts institution founded by Laurence Olivier"
+        }
+      ],
+      "biography_summary": "Prominent British publicly funded performing arts company.",
+      "active": true
+    }
+  ]
+}

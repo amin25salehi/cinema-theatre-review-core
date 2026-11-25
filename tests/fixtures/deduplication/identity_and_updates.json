@@ -1,0 +1,57 @@
+{
+  "description": "Deterministic test cases for identity precedence, title changes, content updates, and source isolation",
+  "cases": {
+    "title_update": {
+      "initial": {
+        "title": "Initial Review: King Lear",
+        "text": "Stirring performance at the Royal Court."
+      },
+      "updated": {
+        "title": "Updated Review: King Lear (Five Stars)",
+        "text": "Stirring performance at the Royal Court."
+      },
+      "expected_outcome": "updated"
+    },
+    "formatting_only_change": {
+      "initial": {
+        "title": "Hamlet in Modern Dress",
+        "text": "<p>Superb&nbsp;performance.</p>"
+      },
+      "updated": {
+        "title": "Hamlet in Modern Dress",
+        "text": "<div>Superb performance.</div>"
+      },
+      "expected_outcome": "unchanged"
+    },
+    "distinct_native_ids_same_url": {
+      "item_a": {
+        "source_id": "theatre_archive",
+        "native_id": "prod_101",
+        "url": "https://theatre.org/current-production",
+        "title": "Waiting for Godot"
+      },
+      "item_b": {
+        "source_id": "theatre_archive",
+        "native_id": "prod_102",
+        "url": "https://theatre.org/current-production",
+        "title": "Endgame"
+      },
+      "expected_outcomes": ["new", "new"]
+    },
+    "same_native_id_cross_sources": {
+      "item_cannes": {
+        "source_id": "fest_cannes",
+        "native_id": "palme_dor_2026",
+        "url": "https://cannes.com/awards",
+        "title": "Palme d'Or Winner"
+      },
+      "item_venice": {
+        "source_id": "fest_venice",
+        "native_id": "palme_dor_2026",
+        "url": "https://labiennale.org/awards",
+        "title": "Golden Lion Winner"
+      },
+      "expected_outcomes": ["new", "new"]
+    }
+  }
+}

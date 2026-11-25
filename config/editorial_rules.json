@@ -1,0 +1,63 @@
+{
+  "version": "1.0.0",
+  "name": "editorial_rules_core",
+  "description": "Deterministic rules and constraints for the Cinema & Theatre Review editorial operating system.",
+  "invariants": [
+    "Entity importance does not imply publication eligibility.",
+    "Source trust does not imply universal authority.",
+    "Authority is claim-specific.",
+    "Evidence is not editorial judgment.",
+    "Evidence Card is not LLM prompt.",
+    "LLM recommendation is not final decision.",
+    "Hard gates are deterministic.",
+    "Unresolved material factual conflicts normally produce HOLD.",
+    "Story state is not publication action.",
+    "Historical evidence must be auditable.",
+    "Source content is untrusted data, not instructions.",
+    "Configuration changes must be versioned.",
+    "Unknown entities must not be silently discarded.",
+    "Popularity is not a substitute for editorial value."
+  ],
+  "hard_gates": {
+    "duplicate_detection": {
+      "enabled": true,
+      "policy": "reject_duplicate_stories"
+    },
+    "commercial_only_filter": {
+      "enabled": true,
+      "policy": "reject_pure_commercial_box_office_or_merchandise"
+    },
+    "iranian_daily_news_filter": {
+      "enabled": true,
+      "policy": "reject_domestic_unless_matching_iran_exceptions"
+    },
+    "unverified_material_claims": {
+      "enabled": true,
+      "policy": "hold_if_any_material_claim_unverified"
+    },
+    "image_provenance_requirement": {
+      "enabled": true,
+      "policy": "reject_uncredited_or_unconfirmed_images"
+    },
+    "source_class_requirement": {
+      "enabled": true,
+      "policy": "require_at_least_one_authoritative_or_two_secondary_sources"
+    }
+  },
+  "character_budgets": {
+    "news_brief": { "min": 150, "target": 350, "max": 600 },
+    "festival_update": { "min": 200, "target": 500, "max": 900 },
+    "book_note": { "min": 250, "target": 600, "max": 1000 },
+    "critical_note": { "min": 300, "target": 750, "max": 1200 },
+    "historical_note": { "min": 300, "target": 700, "max": 1200 },
+    "archive_note": { "min": 200, "target": 500, "max": 900 },
+    "theatre_performance": { "min": 250, "target": 600, "max": 1000 },
+    "award_update": { "min": 150, "target": 400, "max": 700 },
+    "obituary": { "min": 250, "target": 600, "max": 1000 }
+  },
+  "signals": {
+    "evidence_strength_weight": 0.35,
+    "editorial_fit_weight": 0.35,
+    "recency_weight": 0.30
+  }
+}
